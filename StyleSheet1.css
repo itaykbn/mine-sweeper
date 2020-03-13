@@ -1,0 +1,95 @@
+﻿BODY {
+    background: black;
+    color: #DDDDDD;
+    font-family: courier new;
+    text-align: center;
+}
+
+
+
+H1 {
+    font-family: mineFont;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: normal;
+}
+
+#grid {
+    margin-left: 30%;
+
+}
+            @font-face {
+                font-family: 'mineFont';
+                src: url('mineFont.ttf');              
+
+            }
+
+    #grid TR TD {
+        border: 1px solid white;
+        background: url('block.png');
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        color:white;
+        font-size:large;
+    }
+
+        #grid TR TD.block {
+            background: url('block.png');
+        }
+
+        #grid TR TD.zero {
+            background: url('zero.png');
+        }
+        #grid TR TD.one {
+            background: url('one.png');
+        }
+        #grid TR TD.two {
+            background: url('two.png');
+        }
+        #grid TR TD.three {
+            background: url('three.png');
+        }
+        #grid TR TD.four {
+            background: url('four.png');
+        }
+        #grid TR TD.five {
+            background: url('five.png');
+        }
+        #grid TR TD.six {
+            background: url('six.png');
+        }
+        #grid TR TD.seven {
+            background: url('seven.png');
+        }
+        #grid TR TD.eight {
+            background: url('eight.png');
+        }
+
+        #grid TR TD.mine {
+            background-image:url('mine.png');
+        }
+        #grid TR TD.flagged {
+            background-image:url('flag.png');
+            
+            
+        }
+        #grid TR TD.normal {
+            background: #999999;
+        }
+
+
+
+
+BUTTON {
+    background-color: green;
+    font-family:mineFont;
+    font-size:xx-large;
+    margin-left: 45%;
+    font-weight:bold;
+    width:200px;
+    height: 50px;
+
+    border-color:white;
+    
+}
